@@ -1,0 +1,15 @@
+
+use_frameworks!
+ 
+def libraries
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Alamofire'
+  pod 'Moya'
+  pod 'SwiftyJSON'
+end
+ 
+target 'RxDemo' do
+  platform :ios, '9.0'
+  libraries
+end
