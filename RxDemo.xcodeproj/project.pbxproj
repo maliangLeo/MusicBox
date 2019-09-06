@@ -20,6 +20,13 @@
 		BF110ADF2320D89E00FD4A0C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110ADE2320D89E00FD4A0C /* UIColorExtensions.swift */; };
 		BF110AED2320F38300FD4A0C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AEC2320F38300FD4A0C /* MessageViewController.swift */; };
 		BF110AEF2320F39700FD4A0C /* MineZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AEE2320F39700FD4A0C /* MineZoneViewController.swift */; };
+		BF110AF223210A6C00FD4A0C /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AF123210A6C00FD4A0C /* UILabelExtensions.swift */; };
+		BF110AF423210D2D00FD4A0C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AF323210D2D00FD4A0C /* UIViewExtensions.swift */; };
+		BF110AF92321FA3000FD4A0C /* AddNewItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AF82321FA3000FD4A0C /* AddNewItemController.swift */; };
+		BF110AFC2321FB7900FD4A0C /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AFA2321FB7900FD4A0C /* ItemTableViewCell.swift */; };
+		BF110AFD2321FB7900FD4A0C /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF110AFB2321FB7900FD4A0C /* ItemTableViewCell.xib */; };
+		BF110AFF2321FEBC00FD4A0C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110AFE2321FEBC00FD4A0C /* ItemModel.swift */; };
+		BF110B0123220D8C00FD4A0C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF110B0023220D8C00FD4A0C /* DetailViewController.swift */; };
 		BF6BC884231FA0F7004A9B63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BC883231FA0F7004A9B63 /* AppDelegate.swift */; };
 		BF6BC88B231FA0F9004A9B63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6BC88A231FA0F9004A9B63 /* Assets.xcassets */; };
 		BF6BC88E231FA0F9004A9B63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6BC88C231FA0F9004A9B63 /* LaunchScreen.storyboard */; };
@@ -59,6 +66,13 @@
 		BF110ADE2320D89E00FD4A0C /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		BF110AEC2320F38300FD4A0C /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		BF110AEE2320F39700FD4A0C /* MineZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineZoneViewController.swift; sourceTree = "<group>"; };
+		BF110AF123210A6C00FD4A0C /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		BF110AF323210D2D00FD4A0C /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		BF110AF82321FA3000FD4A0C /* AddNewItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemController.swift; sourceTree = "<group>"; };
+		BF110AFA2321FB7900FD4A0C /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		BF110AFB2321FB7900FD4A0C /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		BF110AFE2321FEBC00FD4A0C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		BF110B0023220D8C00FD4A0C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BF6BC880231FA0F7004A9B63 /* RxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BC883231FA0F7004A9B63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6BC88A231FA0F9004A9B63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +133,7 @@
 		BF110AC72320974D00FD4A0C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF110AF52321F19700FD4A0C /* List */,
 				BF110AC9232097D500FD4A0C /* TabBarViewController.swift */,
 				BF110AD12320D10100FD4A0C /* NavigationViewController.swift */,
 				BF110AD32320D5F500FD4A0C /* VideoFeedViewController.swift */,
@@ -143,6 +158,7 @@
 		BF110ACB2320AD3500FD4A0C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				BF110AF023210A3700FD4A0C /* UIKit */,
 				BF110ACC2320AD4E00FD4A0C /* Swift */,
 			);
 			path = Extensions;
@@ -163,6 +179,27 @@
 			children = (
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		BF110AF023210A3700FD4A0C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF110AF123210A6C00FD4A0C /* UILabelExtensions.swift */,
+				BF110AF323210D2D00FD4A0C /* UIViewExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BF110AF52321F19700FD4A0C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				BF110AF82321FA3000FD4A0C /* AddNewItemController.swift */,
+				BF110AFA2321FB7900FD4A0C /* ItemTableViewCell.swift */,
+				BF110AFB2321FB7900FD4A0C /* ItemTableViewCell.xib */,
+				BF110AFE2321FEBC00FD4A0C /* ItemModel.swift */,
+				BF110B0023220D8C00FD4A0C /* DetailViewController.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 		BF6BC877231FA0F7004A9B63 = {
@@ -326,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6BC88E231FA0F9004A9B63 /* LaunchScreen.storyboard in Resources */,
+				BF110AFD2321FB7900FD4A0C /* ItemTableViewCell.xib in Resources */,
 				BF6BC88B231FA0F9004A9B63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,11 +432,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF110AD22320D10100FD4A0C /* NavigationViewController.swift in Sources */,
+				BF110AFF2321FEBC00FD4A0C /* ItemModel.swift in Sources */,
+				BF110AF423210D2D00FD4A0C /* UIViewExtensions.swift in Sources */,
 				BF110ACE2320AFB200FD4A0C /* StringExtensions.swift in Sources */,
+				BF110AF92321FA3000FD4A0C /* AddNewItemController.swift in Sources */,
 				BF110ADA2320D66300FD4A0C /* VideoListViewController.swift in Sources */,
+				BF110B0123220D8C00FD4A0C /* DetailViewController.swift in Sources */,
 				BF110ADF2320D89E00FD4A0C /* UIColorExtensions.swift in Sources */,
+				BF110AF223210A6C00FD4A0C /* UILabelExtensions.swift in Sources */,
 				BF110AD82320D64700FD4A0C /* MusicListViewController.swift in Sources */,
 				BF110AEF2320F39700FD4A0C /* MineZoneViewController.swift in Sources */,
+				BF110AFC2321FB7900FD4A0C /* ItemTableViewCell.swift in Sources */,
 				BF110AD62320D62800FD4A0C /* UserPageViewController.swift in Sources */,
 				BF110ADC2320D67B00FD4A0C /* TimeLineViewController.swift in Sources */,
 				BF110ACA232097D500FD4A0C /* TabBarViewController.swift in Sources */,
