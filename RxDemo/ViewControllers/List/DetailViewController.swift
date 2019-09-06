@@ -11,8 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     
     var itemBlock:((_ item:ItemModel) -> Void)?
-    
-    
+        
     var model: ItemModel?
     
     var titleLabel: UILabel?
